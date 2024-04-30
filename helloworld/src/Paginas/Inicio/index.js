@@ -1,5 +1,11 @@
+import Banner from "../../Components/Banner/index.js";
+
 export default function Inicio() {
     return (
-        <h1>Olá Mundo!</h1>
+
+        <main>
+            <Banner />
+            <h1>Olá Mundo!</h1>
+        </main>
     )
 }
